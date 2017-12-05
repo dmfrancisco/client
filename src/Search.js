@@ -13,8 +13,8 @@ import Topbar from "./Topbar";
 import orderBy from "lodash.orderby";
 import Advertisement from "./Advertisement";
 
-import jess from "./images/jess.svg";
-import jessSmall from "./images/jess-small.svg";
+import logo from "./images/logo.svg";
+import logoSmall from "./images/logo-small.svg";
 
 const Search = ({ isHome, currentCollection, currentQuery, collectionsOrder, sortOptions }) => (
   <div>
@@ -22,28 +22,28 @@ const Search = ({ isHome, currentCollection, currentQuery, collectionsOrder, sor
 
     <div
       className={
-        isHome ? "flex justify-center items-center" : "bg-grey-lighter border-b overflow-hidden"
+        isHome ? "flex justify-center items-center" : "bg-grey-lighter overflow-hidden"
       }
       style={isHome ? { minHeight: "calc(100vh - 100px)" } : {}}>
       <div className={isHome ? "text-center m-8 max-w-md w-full select-none" : "relative m-4 mb-1 select-none"}>
         {isHome ? (
           <img
-            src={jess}
+            src={logo}
             width="128"
-            height="152"
+            height="128"
             className="m-8"
-            alt="Coach Jess welcomes you!"
+            alt="React.parts logo"
             draggable="false"
           />
         ) : (
           <a href="/">
             <img
-              src={jessSmall}
+              src={logoSmall}
               width="50"
               height="50"
               className="absolute pin-l"
               draggable="false"
-              alt="Coach Jess welcomes you!"
+              alt="React.parts logo"
             />
           </a>
         )}

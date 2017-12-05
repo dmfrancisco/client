@@ -1,11 +1,11 @@
 <p align="center">
-  <a href="https://js.coach/">
-    <img alt="jess" src="src/images/jess.svg" width="190" height="190">
+  <a href="https://react.parts/">
+    <img alt="React.parts" src="src/images/logo.svg" width="190" height="190">
   </a>
 </p>
 
 <p align="center">
-  Welcome to the repository that powers the client interface.
+  Fork of the JS.coach client for React.parts
 </p>
 
 ---

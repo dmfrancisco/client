@@ -1,6 +1,6 @@
 {
-  "name": "jscoach-client",
-  "homepage": "https://js.coach",
+  "name": "reactparts-client",
+  "homepage": "https://react.parts",
   "version": "1.0.0",
   "private": true,
   "dependencies": {

@@ -6,7 +6,7 @@ const ClearAll = connectCurrentRefinements(
     items.length > 0 && (
       <button
         onClick={() => refine(items)}
-        className="tracking-tight mb-2 float-right text-orange-dark">
+        className="tracking-tight mb-2 float-right text-indigo-dark">
         Clear filters
       </button>
     )
