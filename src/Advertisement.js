@@ -39,7 +39,7 @@ class Advertisement extends Component {
     const script = document.createElement("script");
     script.setAttribute(
       "src",
-      "//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=jscoach"
+      "//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=reactparts"
     );
     script.setAttribute("type", "text/javascript");
     script.setAttribute("async", "async");
