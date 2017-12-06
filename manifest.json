@@ -1,6 +1,6 @@
 {
-  "short_name": "JS.coach",
-  "name": "JS.coach",
+  "short_name": "React.parts",
+  "name": "React.parts",
   "icons": [
     {
       "src": "favicon.ico",
@@ -14,6 +14,6 @@
   ],
   "start_url": "./index.html",
   "display": "standalone",
-  "theme_color": "#fec93e",
-  "background_color": "#d9d9d9"
+  "theme_color": "#4b67a5",
+  "background_color": "#ebedf2"
 }
