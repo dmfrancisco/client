@@ -43,12 +43,9 @@ const filterDelimiter = ".";
 
 const classicRoutes = {
   all: null,
-  react: "React",
-  "react-native": "React+Native",
-  webpack: "Webpack",
-  browserify: "Browserify",
-  babel: "Babel",
-  postcss: "PostCSS",
+  web: "React",
+  native: "React+Native",
+  "native-ios": "React+Native",
 };
 
 const stripFalsy = object => pickBy(object, identity);
