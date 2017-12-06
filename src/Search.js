@@ -55,13 +55,14 @@ const Search = ({ isHome, currentCollection, currentQuery, collectionsOrder, sor
           <div className={isHome ? "mt-4" : "mt-4 ml-1"}>
             <Tabs
               attributeName="collections"
+              defaultRefinement="React"
               transformItems={items =>
                 items.sort(
                   (a, b) => collectionsOrder.indexOf(a.label) > collectionsOrder.indexOf(b.label)
                 ).filter((item) => reactPartsCollections.includes(item.label))
               }
             />
-            <ClearAll />
+            {!isHome && <ClearAll transformItems={items => items.filter((item) => item.attributeName !== "collections")} />}
           </div>
         </div>
       </div>
