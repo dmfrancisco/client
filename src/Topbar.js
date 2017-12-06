@@ -8,7 +8,7 @@ const Topbar = () => (
 
     <div className="flex-1" />
 
-    <a href="https://react.parts" className="no-underline text-blue-lighter p-2">
+    <a href="https://react.parts" className="no-underline text-grey-light p-2">
       JS.coach
     </a>
     <a

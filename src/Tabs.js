@@ -6,7 +6,7 @@ const TabItem = ({ label, value, isRefined, refine, createURL }) => (
     href={createURL(value)}
     onClick={e => {
       e.preventDefault();
-      refine(value);
+      if (!isRefined) refine(value);
     }}
     className="no-underline text-black mb-2 inline-block"
     key={label}>
