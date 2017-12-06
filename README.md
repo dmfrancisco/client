@@ -17,7 +17,7 @@ Feel free to submit PRs here.
 
 ### Looking for the old source?
 
-Check out the [classic branch](https://github.com/jscoach/support/tree/classic/project).
+Check out the [original repository](https://github.com/madebyform/react-parts).
 
 ### Setting up JS.coach
 
