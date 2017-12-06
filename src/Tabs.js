@@ -16,10 +16,6 @@ const TabItem = ({ label, value, isRefined, refine, createURL }) => (
 
 const Tabs = ({ attributeName, currentRefinement, items, ...otherProps }) => (
   <div className="inline-block">
-    {items.length > 0 && (
-      <TabItem label="All" value={null} isRefined={!currentRefinement} {...otherProps} />
-    )}
-
     {items.map(item => <TabItem key={item.label} {...otherProps} {...item} />)}
   </div>
 );

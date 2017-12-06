@@ -16,6 +16,8 @@ import Advertisement from "./Advertisement";
 import logo from "./images/logo.svg";
 import logoSmall from "./images/logo-small.svg";
 
+const reactPartsCollections = ["React", "React Native", "React VR"];
+
 const Search = ({ isHome, currentCollection, currentQuery, collectionsOrder, sortOptions }) => (
   <div>
     <Topbar />
@@ -56,7 +58,7 @@ const Search = ({ isHome, currentCollection, currentQuery, collectionsOrder, sor
               transformItems={items =>
                 items.sort(
                   (a, b) => collectionsOrder.indexOf(a.label) > collectionsOrder.indexOf(b.label)
-                )
+                ).filter((item) => reactPartsCollections.includes(item.label))
               }
             />
             <ClearAll />
